@@ -1,24 +1,49 @@
-# README
+# Ruby on Rails チュートリアルのサンプルアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+これは、次の教材で作られたサンプルアプリケーションです
+[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
+[Michael Hartl](http://www.michaelhartl.com/) 著
 
-Things you may want to cover:
+## Ruby version
 
-* Ruby version
+- Ruby 2.6.3p62 (2019-04-16 revision 67580)
+- Rails 5.1.7
 
-* System dependencies
+## System dependencies
 
-* Configuration
+`bundle install --without production`
 
-* Database creation
+## Configuration
 
-* Database initialization
+(T.B.D.)
 
-* How to run the test suite
+## Database creation
 
-* Services (job queues, cache servers, search engines, etc.)
+`rails db:migrate`
 
-* Deployment instructions
+## Database initialization
 
-* ...
+(T.B.D.)
+
+## How to run the test suite
+
+`rails test`
+
+## Services (job queues, cache servers, search engines, etc.)
+
+`rails server`
+
+## Deployment instructions
+
+(T.B.D.)
+
+## Misc
+
+詳しくは、[*Ruby on Rails チュートリアル*](https://railstutorial.jp/)  
+を参考にしてください
+
+## License
+
+[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
+ソースコードはMITライセンスとBeerwareライセンスのもとで公開されています
+詳細は [LICENSE.md](LICENSE.md) をご覧ください
